@@ -3,7 +3,7 @@ Portfolio of completed projects I worked on while attending the BI Analytics Tri
 
 | Project number | Title | Description |
 | :-----------: | ----------- |----------- |
-| 1 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
+| 1 | [Project Status Report](https://github.com/rahmatpacha/BI-analytics-projects/tree/main/Project%20statues%20report) | Report based busness recommendations. |
 | 2 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
 | 3 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
 | 4 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
