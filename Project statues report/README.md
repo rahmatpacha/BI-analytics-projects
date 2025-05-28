@@ -1,10 +1,8 @@
-# BI Analytics Project: Sprint 0 - Welcome Sprint: A First Look at Business Analytics
-
 ## Project Overview
 
-**Project Title:** Sprint 0 - Welcome Sprint: A First Look at Business Analytics  
+**Project Title:** Project Statues report   
 **Company:** Fresh Beats  
-**Prepared by:** [Your Name]  
+**Prepared by:** Said Rahmatullah Sadaat  
 **Report Date:** November 21, 2024
 
 ---
@@ -77,7 +75,7 @@ This repository contains the project files and the final report document for Spr
 
 - **Report Template:** Google Doc template filled with my analysis.
 - **Dataset & Visuals:** Provided data and charts used to support insights.
-- **Final Report:** [Link to Google Doc] (replace with your actual shared link)
+- **Final Report:** [Link to Google Doc](https://docs.google.com/document/d/1AHQLRRacaOhzBkv8NINpf4wVlqFx5c0sGlhC_eLY1fU/edit?usp=drive_link)
 
 ---
 
