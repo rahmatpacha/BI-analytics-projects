@@ -1,72 +1,82 @@
-# 🎧 Business Intelligence Report: Fresh Beats Analytics
+# 🗽 NYC Airbnb Market Analysis – Sprint 1: Spreadsheet Data Analysis
 
-## 🚀 Project Overview
+## 📊 Project Overview
 
-This Business Intelligence (BI) project was conducted as part of Sprint 0 of TripleTen's Business Analytics program. The objective was to produce a report suitable for stakeholders, analyzing data and visuals provided to assess the business performance of **Fresh Beats**, an online music streaming platform aimed at promoting up-and-coming artists.
-
-As a BI Analyst, the task involved selecting relevant insights and visualizations and crafting a data-driven narrative that highlights key business challenges and proposes strategic recommendations.
+This project was completed as part of **Sprint 1** in TripleTen’s Business Intelligence Analyst program. The objective was to support a client interested in investing in Manhattan’s vacation rental market by using spreadsheet tools (Excel/Google Sheets) to analyze Airbnb data and provide actionable investment insights.
 
 ---
 
-## 🧠 Business Context
+## 🏙️ Business Objective
 
-**Fresh Beats** is a music streaming platform that generates revenue by helping emerging artists gain exposure through paid promotions. The platform faces several challenges crucial to its continued growth:
+The client wants to know:
 
-- **Artist Promotion Effectiveness**  
-- **User Engagement & Conversion**  
-- **Genre-Based Recommendation Optimization**  
+- Which neighborhoods and property sizes are most attractive for vacation rentals?
+- How much money do these top-performing listings generate?
 
----
-
-## 🎯 Project Goals
-
-The main objectives of the project included:
-
-- Evaluating the effectiveness of current artist promotion strategies.
-- Understanding what drives user engagement and subscription conversion.
-- Analyzing genre performance to improve recommendation systems for emerging artists.
+The goal is to help the client identify profitable opportunities and make informed real estate investment decisions.
 
 ---
 
-## 📊 Approach
+## 📁 Dataset
 
-Using the provided dataset, insights, and visualizations, the following methodology was followed:
-
-1. **Review Existing Visuals and Insights** – Understand the analytical context of the data.
-2. **Identify Relevant Business Challenges** – Match visuals and insights to strategic questions.
-3. **Summarize Key Findings** – Craft a concise, executive-level narrative with recommendations.
-4. **Visual Integration** – Embed unlinked visual components directly into the report for clarity.
-5. **Consistency and Presentation** – Apply professional formatting for stakeholder readability.
+- **Listings** data: Property-level details including bedrooms, neighborhood, and reviews.
+- **Calendar** data: Daily availability and pricing information over a 30-day period.
 
 ---
 
-## 📌 Key Findings
+## 🔧 Methodology
 
-### ✅ Artist Promotion Effectiveness
+### 1. **Data Cleaning**
+- Cleaned inconsistent values in the `neighbourhood` and `bedrooms` columns.
+- Created new fields:
+  - `neighbourhood_clean`
+  - `bedrooms_clean`
+- Documented cleaning steps in a dedicated sheet.
+- Preserved original data in a raw copy.
 
-- Top-performing artists consistently utilized multi-channel campaigns, correlating with increased follower counts and engagement.
-- Promotions timed around peak listening hours performed significantly better.
+### 2. **Pivot Tables**
+- Identified top 10 neighborhoods using `number_of_reviews_ltm` as a proxy for rental frequency.
+- Analyzed property sizes (number of bedrooms) to determine popularity.
+- Cross-referenced neighborhood preferences by property size.
 
-### ✅ User Engagement & Conversion
-
-- Higher conversion rates from free to paid users were observed among users engaging with personalized playlists and artist recommendations.
-- A drop-off was noted in engagement after 7 days for new users, suggesting a need for improved onboarding.
-
-### ✅ Genre-Based Recommendation
-
-- Emerging genres like indie-pop and lo-fi showed high engagement metrics but were underrepresented in the recommendation engine.
-- Users displayed cross-genre exploration behavior, indicating the potential for hybrid recommendation strategies.
-
----
-
-## 💡 Recommendations
-
-- **Boost promotion package personalization** for artists using platform usage metrics.
-- **Introduce onboarding journeys** that leverage top-engagement content to retain free users.
-- **Enhance genre-based recommendations** with data-backed genre clustering and listener behavior modeling.
+### 3. **Revenue Analysis**
+- Labeled top listings based on popularity and size per neighborhood.
+- Created a new `revenue_earned` column in the calendar data based on `adjusted_price` when rented.
+- Used `SUMIF()` to calculate total 30-day revenue, then estimated annual revenue by multiplying by 12.
 
 ---
 
-## 📁 Project Structure
+## 📌 Key Insights
 
+### 🔝 Top 3 Neighborhoods by Review Volume
+- Hell's Kitchen  
+- Flatiron District  
+- East Harlem  
+
+These areas showed the highest engagement, indicating strong demand.
+
+### 🛏️ Most Popular Property Sizes
+- Studio apartments  
+- 1-bedroom units  
+- 2-bedroom units  
+
+### 🏘️ Property Size Preference in Harlem
+- **1-bedroom listings** were the most popular in Harlem and several other neighborhoods.
+
+### 💰 Revenue Potential
+- Top listings generated up to **$60,000+ in estimated annual revenue** based on their 30-day performance.
+- Studio units in Midtown, in particular, offered high return potential.
+
+---
+
+## 💼 Deliverables
+
+- Cleaned dataset with documentation of all transformations.
+- Interactive pivot tables to explore neighborhood/property size trends.
+- Revenue model calculating estimated yearly earnings per listing.
+- Executive summary outlining strategic investment recommendations.
+
+---
+
+## 📎 Project Files
 
