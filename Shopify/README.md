@@ -1,4 +1,4 @@
-# 🛒 Sprint 6: Shopify App Analysis – Power BI Project
+# 🛒 Shopify App Analysis – Power BI Project
 
 ## 📊 Overview
 
