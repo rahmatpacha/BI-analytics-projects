@@ -88,12 +88,4 @@ Thanks to the instructional team and peer reviewers for their feedback during Sp
 
 ---
 
-## 📫 Contact
-
-For feedback, questions, or collaboration, feel free to reach out:
-
-**[Your Name]**  
-**Email:** your.email@example.com  
-**LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
 
