@@ -1,4 +1,4 @@
-# 📦 Sprint 5: Storytelling with Data – Superstore Returns Analysis (Tableau)
+# 📦 Storytelling with Data – Superstore Returns Analysis (Tableau)
 
 ## 📝 Project Overview
 
