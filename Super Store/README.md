@@ -1,4 +1,4 @@
-# 📊 Sprint 4: Data Visualization with Tableau – Superstore Profitability Analysis
+# 📊 Data Visualization with Tableau – Superstore Profitability Analysis
 
 ## 🧾 Project Overview
 
